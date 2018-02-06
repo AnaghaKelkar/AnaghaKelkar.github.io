@@ -31,7 +31,30 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/switcher/style6.css" id="colors">  -->
-  
+    <style>
+    #skills {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    }
+
+    #skills td, #skills th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #skills tr:nth-child(even){background-color: #f2f2f2;}
+
+    #skills tr:hover {background-color: #ddd;}
+
+    #skills th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #4CAF50;
+        color: white;
+    }
+</style>
 </head>
 <body class="">
 
@@ -125,7 +148,17 @@
     <section id="one" class="p-40">
       <h2 class="section-title">About Me</h2>
       <div class="indent-content bg-white wow fadeInUp" style="font-size: 14px;">
-        <p>I am a Computer Science Fall 2017 graduate student at University of Southern California(USC). <hr style="background-color: lightgray;size: 2px;"></p><p>Experienced Software Engineer with a demonstrated history of working in the internet industry. Skilled in JavaServer Pages (JSP), SQL, PHP, Ruby on Rails, and R. Strong engineering professional with a Bachelor of Engineering (B.E.) focused in Information Technology from Vivekanand Education Society's Institute Of Technology, Mumbai, India.</p>
+        <p>I am a Computer Science Fall 2017 graduate student at University of Southern California(USC).</p>
+        <hr style="background-color: lightgray;size: 2px;">
+        <table id="skills">
+          <th colspan="2"><center>Technical skills</center></th>
+          <tr><td>Programming Languages: </td><td>Ruby(Ruby on Rails), Java, C, C++, R, Python </td></tr>
+          <tr><td>Databases: </td><td>MySQL, SQL, MongoDB, PostgreSQL, Gremlin</td></tr>
+          <tr><td>Web-based languages: </td><td>JavaScript, HTML, CSS, JSP, Servlets</td></tr>
+          <tr><td>Application Software: </td><td>SQL server 2008, NetBeans IDE, Java WTK, Eclipse, Adobe Flash Builder, Bootstrap, Git</td></tr>
+        </table>
+        <hr style="background-color: lightgray;size: 2px;">
+        <p>Experienced Software Engineer with a demonstrated history of working in the internet industry.Strong engineering professional with a Bachelor of Engineering (B.E.) focused in Information Technology from Vivekanand Education Society's Institute Of Technology, Mumbai, India.</p>
         <!-- <div class="btn-block">
           <a href="downloads/resume_anagha_kelkar.pdf" class="btn btn-md btn-primary" download>Download CV</a>
           <a href="#popup-form" class="btn btn-md btn-default fancybox">Contact me</a>
